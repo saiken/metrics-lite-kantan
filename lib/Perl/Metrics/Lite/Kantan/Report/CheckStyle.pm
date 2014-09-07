@@ -4,7 +4,6 @@ use warnings;
 
 use CheckStyleConfig;
 
-use Data::Dumper;
 sub new {
     my $class = shift;
     my $self = bless( {}, $class );
